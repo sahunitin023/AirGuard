@@ -15,6 +15,3 @@ class SMSLogic:
         )
 
         return message_response
-
-
-sms = SMSLogic().send_message(message="Hello My Love", receiverNumber='+917905352854')
